@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 3000;
+const port = 3001;
 
 // a middleware that enables us to read the received JSON data
 app.use(express.json());
